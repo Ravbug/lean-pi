@@ -46,7 +46,7 @@ echo -e "\e[1mRemoving the following packages, and their dependencies:\e[0m
 $bloatlist";
 
 # remove the packages, their configurations, and their dependencies
-sudo apt-get purge -q --auto-remove $bloat2
+sudo apt-get purge -qq --auto-remove $bloatlist -y
 
 # remove python games
 # rm -rf ~/python_games
