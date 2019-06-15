@@ -3,8 +3,8 @@
 # Run the script with no arguments to see about info
 
 #bloat lists
-bloat1="greenfoot bluej nodered scratch* nuscratch sonic-pi epiphany-browser netsurf-gtk zenity omxplayer qt* debian-reference* dillo timidity smartsim *minecraft-pi wolfram-engine libreoffice* claws-mail* vlc jackd1 libjack0 libzita-alsa-pcmi0 libzita-resampler1"
-bloat2="$bloat1 idle* oracle-java* openjdk* nodejs npm"
+bloat1="greenfoot bluej nodered scratch* nuscratch sonic-pi epiphany-browser netsurf-gtk zenity omxplayer qt* debian-reference* dillo timidity smartsim *minecraft-pi wolfram-engine libreoffice* claws-mail* vlc jackd1 libjack0 libzita-alsa-pcmi0 libzita-resampler1 qjackctl"
+bloat2="$bloat1 idle* oracle-java* openjdk* nodejs npm python3-thonny*"
 
 echo -e "\e[1m\e[41mLean-Pi: Raspberry Pi debloater\e[0m"
 
