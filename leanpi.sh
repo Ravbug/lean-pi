@@ -1,11 +1,10 @@
 # Created by Ravbug (github.com/ravbug)
 # 
 # Run the script with no arguments to see about info
-# This script does not remove Geany. 
 
 #bloat lists
-bloat1="bluej greenfoot nodered scratch* nuscratch sonic-pi epiphany-browser netsurf-gtk zenity omxplayer qt* debian-reference* dillo timidity smartsim *minecraft-pi wolfram-engine libreoffice* claws-mail* vlc"
-bloat2="$bloat1 python* idle* greenfoot bluej oracle-java* openjdk* jackd1 libjack0 libzita-alsa-pcmi0 libzita-resampler1 gcc nodejs npm git"
+bloat1="bluej greenfoot nodered scratch* nuscratch sonic-pi epiphany-browser netsurf-gtk zenity omxplayer qt* debian-reference* dillo timidity smartsim *minecraft-pi wolfram-engine libreoffice* claws-mail* vlc jackd1 libjack0 libzita-alsa-pcmi0 libzita-resampler1"
+bloat2="$bloat1 idle* greenfoot bluej oracle-java* openjdk* nodejs npm git"
 
 echo -e "\e[1m\e[41mLean-Pi: Raspberry Pi debloater\e[0m"
 
@@ -14,6 +13,7 @@ if [[ $# -eq 0 ]] ; then
     echo -e "
 This script removes unwanted software, 
 and the software's dependencies, from fresh raspbian installs.
+This script does not remove python, because removing python breaks everything.
 
 \e[1mList 1 (normal bloat)\e[0m
 $bloat1
