@@ -11,7 +11,7 @@ Some of these packages include Scratch, Wolfram / Mathematica, Minecraft PI, Son
 
 ## How to use:
 1) Make a [backup of your raspberry pi disk image](https://www.howtogeek.com/341944/how-to-clone-your-raspberry-pi-sd-card-for-foolproof-backup/). 
-2) [Download the Lean-pi latest release.](https://github.com/Ravbug/lean-pi/releases)
+2) [Download the Lean-pi latest release.](https://github.com/Ravbug/lean-pi/releases) and unzip it/
 3) Make the script runnable: `chmod +x leanpi.sh`
 4) Run the script and follow its directions: `./leanpi.sh`
 5) Restart your pi.
