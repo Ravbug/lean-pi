@@ -2,7 +2,8 @@
 Raspbian, the official Raspberry Pi operating system, comes with a surprising amount of unwanted bloatware. 
 
 Introducing Lean-pi, my raspbian de-bloating tool. It makes stripping your pi images of bloatware easy!
-(Alternatively, just download the image without the "recommended software" and flash it without NOOBS)
+
+(Alternatively, download the image without the "recommended software" and flash it without NOOBS, this will start you off with far less bloat to remove.)
 
 ## How it works
 Lean-pi contains a list of packages which serve little purpose. It uses the package manager to remove them, their configuration, and their dependencies.
@@ -10,7 +11,7 @@ Some of these packages include Scratch, Wolfram / Mathematica, Minecraft PI, Son
 
 ## How to use:
 1) Make a [backup of your raspberry pi disk image](https://www.howtogeek.com/341944/how-to-clone-your-raspberry-pi-sd-card-for-foolproof-backup/). 
-2) [Download the Lean-pi latest release.](https://github.com/Ravbug/lean-pi/releases) and unzip it/
+2) [Download the Lean-pi latest release.](https://github.com/Ravbug/lean-pi/releases) and unzip it
 3) Make the script runnable: `chmod +x leanpi.sh`
 4) Run the script and follow its directions: `./leanpi.sh`
 5) Restart your pi.
