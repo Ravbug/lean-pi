@@ -2,7 +2,7 @@
 Raspbian, the official Raspberry Pi operating system, comes with a surprising amount of unwanted bloatware. 
 
 Introducing Lean-pi, my raspbian de-bloating tool. It makes stripping your pi images of bloatware easy!
-(Alternatively, just download the image without the "recommended software" and just flash it without NOOBS)
+(Alternatively, just download the image without the "recommended software" and flash it without NOOBS)
 
 ## How it works
 Lean-pi contains a list of packages which serve little purpose. It uses the package manager to remove them, their configuration, and their dependencies.
